@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, links, icons" />
+    <title>Contactanos</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/footer-distributed.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<div  class="no-margin">
+		<div class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner" id="cabecera_"></div>		
+		<div style="background-color:#2f2f3b" class="courses_banner">
+			<div class="container">
+				<h3 >Contactanos</h3>
+				<p class="description">
+					Porfavor rellene el siguiente formulario para ponerse en contacto con nostros.
+				</p>
+			<div class="breadcrumb1">
+				<ul>
+					<li class="icon6"><a href="index.php">Inicio</a></li>
+					<li class="current-page">Contactanos</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<br><br><br><br>
+	</div>
+	<div class="courses_box1">
+	   <div class="container">
+	   	  <form class="login" method="post" action="#">
+	    	<p class="lead">Contactanos</p>
+		    <div class="form-group">
+			    <input autocomplete="off" type="text" name="nombre" class="required form-control" placeholder="Nombre">
+		    </div>
+		    <div class="form-group">
+			    <input autocomplete="off" type="apellido" class="required form-control" placeholder="Apellido" name="pw">
+		    </div>
+			<div class="form-group">
+			    <input autocomplete="off" type="email" name="email" class="required form-control" placeholder="Correo Electronico">
+		    </div>
+			<textarea class="form-control" rows="5" placeholder="Comentario" id="comment"></textarea>
+		    <div class="form-group">
+		    	<input type="submit" class="btn btn-primary btn-lg1 btn-block" name="contact" value="Enviar">
+		    </div>
+		 </form>
+	   </div>
+	</div>	
+	<div id="footer"></div>		
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+		<script>
+		$(function(){
+			$("#cabecera_").load("cabecera.php"); 
+			$("#footer").load("footer.html"); 
+		});
+	</script>
+</body>
+</html>
